@@ -5,16 +5,16 @@
                 <div class="col-6 cs-logo my-0">
                     <a href="#">C.S.</a>
                 </div>
-                <div class="col-6 d-flex social justify-content-end align-items-center">
-                    <a href="">
-                        <img src="../assets/logo-instragram.png" alt="Instagram">
+                <div class="col-6 d-flex social justify-content-end align-items-center align-items-md-end flex-md-column flex-lg-row ">
+                    <a href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1">
+                        <img class="mx-1" src="../assets/logo-instragram.png" alt="Instagram">
                     </a>
 
                     <a href="">
-                        <img src="../assets/logo-linkedin.png" alt="Linkedin">
+                        <img class="mx-1" src="../assets/logo-linkedin.png" alt="Linkedin">
                     </a>
-                    <a href="">
-                        <img src="../assets/logo-facebook.jpeg" alt="Facebook">
+                    <a href="https://www.facebook.com/criscustodiamoci/">
+                        <img class="mx-1" src="../assets/logo-facebook.jpeg" alt="Facebook">
                     </a>
                 </div>
             </div>
@@ -24,9 +24,20 @@
                 <h2>Doula Cristina</h2>
                 <h3 class="mb-5">Sostegno in gravidanza parto e puerperio.</h3>
             </div>
+            
+            <div class="d-flex justify-content-center">
                 <div>
-                    <a class="servizi" href="#">Scopri i Servizi</a>
+                    <a class="servizi mx-5" href="#servizi">Scopri i Servizi</a>
                 </div>
+
+                <div>
+                    <a class="servizi mx-5" href="#presentazione">Scopri chi sono</a>
+                </div>
+
+                <div>
+                    <a class="servizi mx-5 px-4" href="#feedback">Dicono di me</a>
+                </div>
+            </div>
         </div>
     </section>
 </template>
@@ -55,17 +66,13 @@ section{
     font-weight: 1000;
     font-size: 3rem;
     a{
-        color: white;
+        color: black;
+        background-color: #EBC1BA;
         text-decoration: none;
         font-size: 3rem;
         padding: 1rem;
         border-bottom-right-radius:15px;
-        &:hover {
-            border: none;
-            color: black;
-            background-color: #EBC1BA;
-            transition:  all ease-in-out .3s;
-        }
+
     }
 }
 
@@ -88,13 +95,12 @@ section{
         border: 1px solid white;
         padding: 1rem;
         &:hover {
-            border: none;
+            border: 1px solid transparent;
             color: black;
             background-color: #EBC1BA;
             transition:  all ease-in-out .3s
         }
     }
-
 
 
 .social {
@@ -103,7 +109,7 @@ section{
     img {
         width:50px;
         border-radius: 30%;
-        margin: 0 10px;
+
     }
 }
 </style>
