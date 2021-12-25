@@ -1,44 +1,56 @@
 <template>
-    <section>
-        <header>
-            <div class="row">
-                <div class="col-6 cs-logo my-0">
-                    <a href="#">C.S.</a>
-                </div>
-                <div class="col-6 d-flex social justify-content-end align-items-center align-items-md-end flex-md-column flex-lg-row ">
-                    <a href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1">
-                        <img class="mx-1" src="../assets/logo-instragram.png" alt="Instagram">
-                    </a>
+    <section class="container-fluid">
+        <header class="row justify-content-between">
+            <div class="col-3 cs-logo">
+                <a href="#">C.S.</a>
+            </div>
+            <div class="col-3 social justify-content-end d-flex">
+                <a href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1">
+                    <img class="mx-1" src="../assets/logo-instragram.png" alt="Instagram">
+                </a>
 
-                    <a href="">
-                        <img class="mx-1" src="../assets/logo-linkedin.png" alt="Linkedin">
-                    </a>
-                    <a href="https://www.facebook.com/criscustodiamoci/">
-                        <img class="mx-1" src="../assets/logo-facebook.jpeg" alt="Facebook">
-                    </a>
-                </div>
+                <a href="">
+                    <img class="mx-1" src="../assets/logo-linkedin.png" alt="Linkedin">
+                </a>
+                <a href="https://www.facebook.com/criscustodiamoci/">
+                    <img class="mx-1" src="../assets/logo-facebook.jpeg" alt="Facebook">
+                </a>
             </div>
         </header>
-        <div class=" overlay h-100 text-center d-flex flex-column justify-content-center align-items-center">
-            <div class="text">
-                <h2>Doula Cristina</h2>
-                <h3 class="mb-5">Sostegno in gravidanza parto e puerperio.</h3>
-            </div>
-            
-            <div class="d-flex justify-content-center">
-                <div>
-                    <a class="servizi mx-5" href="#servizi">Scopri i Servizi</a>
-                </div>
-
-                <div>
-                    <a class="servizi mx-5" href="#presentazione">Scopri chi sono</a>
-                </div>
-
-                <div>
-                    <a class="servizi mx-5 px-4" href="#feedback">Dicono di me</a>
+        <div class="container-xl text-center d-flex flex-column justify-content-center h-100 pb-5">
+            <div class="row">
+                <div class="col-12 text pb-5">
+                    <h2>Doula Cristina</h2>
+                    <h3 class="mb-5">Sostegno in gravidanza parto e puerperio.</h3>
                 </div>
             </div>
-        </div>
+                
+                <div class=" row justify-content-md-between align-items-center flex-wrap mt-1">
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2">
+                        <div class="servizi">
+                            <a href="#servizi">Scopri i Servizi</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2">
+                        <div class="servizi">
+                            <a href="#presentazione">Scopri chi sono</a>
+                        </div>
+                    </div> 
+
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2">
+                        <div class="servizi">
+                            <a href="#feedback">Dicono di me</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2">
+                        <div class="servizi">
+                            <a href="#feedback">Dicono di me</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 </template>
 
@@ -50,15 +62,14 @@ name: 'Jumbo'
 
 <style scoped lang="scss">
 
-header {
-    height: 100px;
-    position:fixed;
-    width:100%;
-}
+// header {
+//     height: 100px;
+//     position:fixed;
+//     width:100%;
+// }
 section{
-    background-image: url('../assets/lidiaweb-505_2.jpg');
+    background-image: url('../assets/lidia-505.jpg');
     height: 100vh;
-    width: 100vw;
     background-position: bottom ;
     background-size: cover;
 }
@@ -76,36 +87,39 @@ section{
     }
 }
 
-.overlay{
-    background-color: rgba(58, 56, 56, .3);
-}
+// .overlay{
+//     background-color: rgba(58, 56, 56, .3);
+// }
 .text {
     margin-bottom: 2rem;
     h2, h3{
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: normal;
     }
 }
 
 .servizi{
-        color: white;
-        text-decoration: none;
-        font-size: 2rem;
         border: 1px solid white;
         padding: 1rem;
         &:hover {
             border: 1px solid transparent;
-            color: black;
             background-color: #EBC1BA;
             transition:  all ease-in-out .3s
+        }
+        &:hover a {
+            color: black;
+        }
+        a {
+        color: white;
+        text-decoration: none;
+        font-size: 2rem;
         }
     }
 
 
 .social {
     padding: 1rem;
-    
     img {
         width:50px;
         border-radius: 30%;
