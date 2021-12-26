@@ -2,9 +2,9 @@
     <section class="container-fluid">
         <header class="row justify-content-between">
             <div class="col-3 cs-logo">
-                <a href="#">C.S.</a>
+                <a class="fs-1 p-3" href="#">C.S.</a>
             </div>
-            <div class="col-3 social justify-content-end d-flex">
+            <div class="col-3 social p-1 justify-content-end d-flex">
                 <a
                     href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1"
                 >
@@ -35,9 +35,9 @@
             class="container-xl text-center d-flex flex-column justify-content-center h-100 pb-5"
         >
             <div class="row">
-                <div class="col-12 text pb-5">
-                    <h2>Doula Cristina</h2>
-                    <h3 class="mb-5">
+                <div class="col-12 text pb-lg-5">
+                    <h2 class="fs-1">Doula Cristina</h2>
+                    <h3 class="fs-1 mb-5">
                         Sostegno in gravidanza parto e puerperio.
                     </h3>
                 </div>
@@ -49,32 +49,34 @@
                 <div
                     class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi">
-                        <a href="#servizi">Scopri i Servizi</a>
+                    <div class="servizi p-3">
+                        <a class="fs-3" href="#servizi">Scopri i Servizi</a>
                     </div>
                 </div>
 
                 <div
                     class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi">
-                        <a href="#presentazione">Scopri chi sono</a>
+                    <div class="servizi p-3">
+                        <a class="fs-3" href="#presentazione"
+                            >Scopri chi sono</a
+                        >
                     </div>
                 </div>
 
                 <div
                     class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi">
-                        <a href="#feedback">Dicono di me</a>
+                    <div class="servizi p-3">
+                        <a class="fs-3" href="#feedback">Dicono di me</a>
                     </div>
                 </div>
 
                 <div
                     class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi">
-                        <a href="#feedback">Dicono di me</a>
+                    <div class="servizi p-3">
+                        <a class="fs-3" href="#feedback">Dicono di me</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +91,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
 section {
     background-image: url("../assets/lidia-505.jpg");
     height: 100vh;
@@ -97,31 +98,25 @@ section {
     background-size: cover;
 }
 .cs-logo {
-    font-weight: 1000;
-    font-size: 3rem;
+    font-weight: 800;
     a {
         color: black;
         background-color: #ebc1ba;
         text-decoration: none;
-        font-size: 3rem;
-        padding: 1rem;
         border-bottom-right-radius: 15px;
     }
 }
 
 .text {
-    margin-bottom: 2rem;
     h2,
     h3 {
         color: white;
-        font-size: 3rem;
         font-weight: normal;
     }
 }
 
 .servizi {
     border: 1px solid white;
-    padding: 1rem;
     &:hover {
         border: 1px solid transparent;
         background-color: #ebc1ba;
@@ -138,7 +133,6 @@ section {
 }
 
 .social {
-    padding: 1rem;
     img {
         width: 50px;
         border-radius: 30%;
