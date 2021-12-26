@@ -32,22 +32,22 @@
             </div>
         </header>
         <div
-            class="container-xl text-center d-flex flex-column justify-content-center h-100 pb-5"
+            class="container-xl text-center d-flex flex-column justify-content-center justify-content-md-evenly h-100 pb-5"
         >
             <div class="row">
-                <div class="col-12 text pb-lg-5">
+                <div class="col-12 text pb-3">
                     <h2 class="fs-1">Doula Cristina</h2>
-                    <h3 class="fs-1 mb-5">
-                        Sostegno in gravidanza parto e puerperio.
+                    <h3 class="fs-1">
+                        Sostegno in gravidanza parto e puerperio
                     </h3>
                 </div>
             </div>
 
             <div
-                class="row justify-content-md-between align-items-center flex-wrap mt-1"
+                class="row g-0 justify-content-md-between align-items-center flex-wrap"
             >
                 <div
-                    class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-3">
                         <a class="fs-3" href="#servizi">Scopri i Servizi</a>
@@ -55,7 +55,7 @@
                 </div>
 
                 <div
-                    class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-3">
                         <a class="fs-3" href="#presentazione"
@@ -65,7 +65,7 @@
                 </div>
 
                 <div
-                    class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-3">
                         <a class="fs-3" href="#feedback">Dicono di me</a>
@@ -73,7 +73,7 @@
                 </div>
 
                 <div
-                    class="col-12 col-sm-6 col-md-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-3">
                         <a class="fs-3" href="#feedback">Dicono di me</a>
@@ -97,26 +97,21 @@ section {
     background-position: bottom;
     background-size: cover;
 }
-.cs-logo {
+.cs-logo a {
     font-weight: 800;
-    a {
-        color: black;
-        background-color: #ebc1ba;
-        text-decoration: none;
-        border-bottom-right-radius: 15px;
-    }
+    color: black;
+    background-color: #ebc1ba;
+    text-decoration: none;
+    border-bottom-right-radius: 15px;
 }
 
 .text {
-    h2,
-    h3 {
-        color: white;
-        font-weight: normal;
-    }
+    color: white;
 }
 
 .servizi {
     border: 1px solid white;
+    width: 100%;
     &:hover {
         border: 1px solid transparent;
         background-color: #ebc1ba;
@@ -132,10 +127,8 @@ section {
     }
 }
 
-.social {
-    img {
-        width: 50px;
-        border-radius: 30%;
-    }
+.social img {
+    width: 50px;
+    border-radius: 30%;
 }
 </style>
