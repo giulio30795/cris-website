@@ -1,8 +1,10 @@
 <template>
     <div class="servizio">
-        <img :src="img" alt="title" />
-        <h4>{{title}}</h4>
-        <p>{{text}}</p>
+        <img class="p-3" :src="img" alt="title" />
+        <div class="px-3 text">
+            <h4>{{title}}</h4>
+            <p class="mt-3">{{text}}</p>
+        </div>
     </div>
 </template>
 
@@ -14,13 +16,16 @@ export default {
         title: String,
         text: String,
     }
-    
 };
 </script>
 
 <style scoped lang="scss">
+
+
 img{
-    max-width: 100%;    
-    max-height:50%;
+    width: 100%;
+    max-height: 270px;
+    object-fit: cover;
+    object-position: center;
 }
 </style>

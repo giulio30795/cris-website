@@ -112,10 +112,11 @@ section {
 .servizi {
     border: 1px solid white;
     width: 100%;
+    transition: all ease-in-out 0.3s;
     &:hover {
         border: 1px solid transparent;
         background-color: #ebc1ba;
-        transition: all ease-in-out 0.3s;
+        border-radius: 50px;
     }
     &:hover a {
         color: black;
@@ -130,5 +131,9 @@ section {
 .social img {
     width: 50px;
     border-radius: 30%;
+    transition: all ease-in-out .6s;
+    &:hover{
+        transform: rotate(360deg);
+    }
 }
 </style>

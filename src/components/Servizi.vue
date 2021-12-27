@@ -1,9 +1,9 @@
 <template>
     <section id="servizi">
-        <h2 class="text-center">Ecco quali sono i servizi offerti</h2>
+        <h2 class="text-center mb-4">Ecco quali sono i servizi offerti</h2>
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-lg-6 my-2" v-for="(element, index) in Servizi" :key="`servizio-${index}`">
+                <div class="col-sm-12 col-md-6 col-lg-4 my-2" v-for="(element, index) in Servizi" :key="`servizio-${index}`">
                     <CardServizio
                     :img="element.img"
                     :title="element.title"
@@ -12,7 +12,6 @@
                 </div>
             </div>
         </div>
-
     </section>
 </template>
 
@@ -39,7 +38,7 @@ data (){
 <style scoped lang="scss">
 
 .servizio{
-    border: 1px solid grey
+    border: .5px solid grey
 }
 
 
