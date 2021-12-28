@@ -3,7 +3,7 @@ export default
     {
         img: require('../assets/newborn-1407625.jpg'),
         title:'Informazioni Babywearing',
-        text: 'lorem ipsum',
+        text: 'lorem ipsum Un percorso di consapevolezza, informazioni utili e fisiologia strutturato il 5 parti: gravidanza, parto, allattamento, gestione primi giorni, approfondimenti. Scrivimi senza impegno per ricevere il programma completo.',
     },
     {
         img: require('../assets/newborn-1407625.jpg'),

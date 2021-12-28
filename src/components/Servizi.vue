@@ -2,12 +2,13 @@
     <section id="servizi">
         <h2 class="text-center mb-4">Ecco quali sono i servizi offerti</h2>
         <div class="container">
-            <div class="row">
+            <div id="accordionExample" class="row">
                 <div class="col-sm-12 col-md-6 col-lg-4 my-2" v-for="(element, index) in Servizi" :key="`servizio-${index}`">
                     <CardServizio
                     :img="element.img"
                     :title="element.title"
                     :text="element.text"
+                    :index="index"
                     />
                 </div>
             </div>
@@ -26,6 +27,7 @@ components:{
 },
 
 
+
 data (){
     return {
         Servizi : Servizi
@@ -37,9 +39,6 @@ data (){
 
 <style scoped lang="scss">
 
-.servizio{
-    border: .5px solid grey
-}
 
 
 </style>

@@ -25,7 +25,7 @@
                         Le competente riguardano elementi di anatomia femminile, fisiologia della gravidanza e del parto, fisiologia dell'allattamento, del sonno e del puerperio; nozioni di babywearing, massaggio neonatale, strategie comunicative e di sostegno alla madre, alimentazione complementare e auto svezzamento, alimentazione in gravidanza e puerperio, rebozo e utilizzo di pannolini lavabili.
                     </p>
                     <h3 class="mt-5">Perchè dovresti chiamare una Doula?</h3>
-                    <ul class="mt-5 ps-3">
+                    <ul class="mt-3 ps-3">
                         <li>
                             Potresti aver bisogno di concentrarti solo sulla tua nuova famiglia,  la doula si occuperà di tutto il resto
                         </li>
@@ -48,7 +48,6 @@
                             può aiutarti ad elaborare dei vissuti pesanti legati ad un parto precedente
                         </li>
                     </ul>
-                    
                </div>
            </div>
         </div> 
@@ -57,12 +56,18 @@
 
 <script>
 export default {
-name: 'Presentazione'
+name: 'Presentazione',
+
 }
+
+
+
 </script>
 
 <style scoped lang="scss">
  img{
      max-width: 100%;
+     border-radius: 30px;
+     object-fit: cover;
  }
 </style>
