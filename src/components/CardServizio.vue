@@ -22,8 +22,7 @@
                 </div>
             </div>
         </div>
-
-</div>
+    </div>
 
 
 
@@ -71,6 +70,7 @@ export default {
 }
 .servizio{
     border: .5px solid grey;
+    background-color: white;
 }
 .service-card{
     height: 60px;

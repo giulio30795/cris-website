@@ -21,5 +21,8 @@ export default {
 </script>
 
 <style lang="scss">
+*{
+font-family: 'Bodoni Moda', serif;
 
+}
 </style>

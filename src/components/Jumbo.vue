@@ -1,8 +1,10 @@
 <template>
     <section class="container-fluid">
         <header class="row justify-content-between">
-            <div class="col-3 cs-logo">
-                <a class="fs-1 p-3" href="#">C.S.</a>
+            <div class="col-3 cs-logo ps-0">
+                <a class="fs-1 p-3" href="#">
+                    <img src="../assets/1640562992772.jpg" alt="Logo-Cristina">
+                </a>
             </div>
             <div class="col-3 social p-1 justify-content-end d-flex">
                 <a
@@ -76,7 +78,7 @@
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-3">
-                        <a class="fs-3" href="#feedback">Dicono di me</a>
+                        <a class="fs-3" href="#feedback">Contatti</a>
                     </div>
                 </div>
             </div>
@@ -98,12 +100,11 @@ section {
     background-position: bottom;
     background-size: cover;
 }
-.cs-logo a {
-    font-weight: 800;
-    color: black;
-    background-color: #ebc1ba;
-    text-decoration: none;
-    border-bottom-right-radius: 15px;
+
+
+.cs-logo img {
+    width: 90px;
+    border-radius: 50%;
 }
 
 .text {
@@ -116,7 +117,7 @@ section {
     transition: all ease-in-out 0.3s;
     &:hover {
         border: 1px solid transparent;
-        background-color: #ebc1ba;
+        background-color: #f5eaef;
         border-radius: 50px;
     }
     &:hover a {
@@ -130,7 +131,7 @@ section {
 }
 
 .social img {
-    width: 50px;
+    width: 55px;
     border-radius: 30%;
     transition: all ease-in-out .6s;
     &:hover{

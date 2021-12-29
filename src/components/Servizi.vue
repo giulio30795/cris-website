@@ -38,7 +38,9 @@ data (){
 
 
 <style scoped lang="scss">
-
+section{
+    background-color: #f5eaef
+}
 
 
 </style>
