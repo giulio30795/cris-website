@@ -6,7 +6,21 @@
                     <img src="../assets/1640562992772.jpg" alt="Logo-Cristina">
                 </a>
             </div>
-            <div class="col-3 social p-1 justify-content-end d-flex">
+            <div class="col-3 social p-2 justify-content-end d-flex">
+                <a href="mailto: giulioincarbone95@gmail.com">
+                    <img
+                        class="mx-1 gmail"
+                        src="../assets/gmail-google.png"
+                        alt="E-Mail"
+                    />
+                </a>
+                <a href="tel:+393472256151">
+                    <img
+                        class="mx-1"
+                        src="../assets/whatsapp-6273368_1280.webp"
+                        alt="Telefono"
+                    />
+                </a>
                 <a
                     href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1"
                 >
@@ -17,20 +31,6 @@
                     />
                 </a>
 
-                <a href="">
-                    <img
-                        class="mx-1"
-                        src="../assets/logo-linkedin.png"
-                        alt="Linkedin"
-                    />
-                </a>
-                <a href="https://www.facebook.com/criscustodiamoci/">
-                    <img
-                        class="mx-1"
-                        src="../assets/logo-facebook.jpeg"
-                        alt="Facebook"
-                    />
-                </a>
             </div>
         </header>
         <div
@@ -131,11 +131,12 @@ section {
 }
 
 .social img {
-    width: 55px;
-    border-radius: 30%;
+    width: 45px;
+    height:45px;
     transition: all ease-in-out .6s;
     &:hover{
         transform: rotate(360deg);
     }
 }
+
 </style>

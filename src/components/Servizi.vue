@@ -1,5 +1,5 @@
 <template>
-    <section id="servizi">
+    <section id="servizi" class="pb-5">
         <h2 class="text-center mb-4">Ecco quali sono i servizi offerti</h2>
         <div class="container">
             <div id="accordionExample" class="row">
@@ -9,6 +9,9 @@
                     :title="element.title"
                     :text="element.text"
                     :index="index"
+                    :isActive="activeIndex === index"
+                    @activeAccordion = "setActiveIndex"
+                    :closed="activeIndex === null"
                     />
                 </div>
             </div>
@@ -26,13 +29,23 @@ components:{
     CardServizio,
 },
 
-
-
 data (){
     return {
-        Servizi : Servizi
+        Servizi : Servizi,
+        activeIndex: null,
     }
 },
+
+methods:{
+    setActiveIndex(index){
+        if(this.activeIndex === index){
+            this.activeIndex = null; 
+            }
+            else{
+                this.activeIndex = index;
+            }
+        }
+    },
 }
 </script>
 
