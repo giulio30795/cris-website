@@ -1,8 +1,8 @@
 <template>
-    <footer class="py-5">
+    <footer id="footer" class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-4">
                     <div>
                         <h5>Hai ancora dubbi?</h5>
                         <h6>
@@ -33,6 +33,19 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-12 col-md-4">
+                    <div>About me</div>
+                    <p>
+                        Sostegno in gravidanza e puerperio. Percorsi di accompagnamento alla nascita ed elaborazioni del parto.
+                    </p>
+                    <a href="#">
+                        <img
+                            src="../assets/1640562992772.jpg"
+                            alt="Logo-Cristina"
+                        />
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
@@ -55,5 +68,10 @@ a {
         color: black;
         text-decoration: underline;
     }
+}
+
+img {
+    width: 90px;
+    border-radius: 50%;
 }
 </style>

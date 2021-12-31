@@ -80,7 +80,7 @@
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
-                        <a class="fs-3" href="#feedback">Contatti</a>
+                        <a class="fs-3" href="#footer">Contatti</a>
                     </div>
                 </div>
             </div>
