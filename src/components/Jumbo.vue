@@ -1,13 +1,16 @@
 <template>
-    <section class="container-fluid">
+    <section class="container-fluid pb-5">
         <header class="row justify-content-between">
-            <div class="col-3 cs-logo ps-0">
+            <div class="col-3 cs-logo ps-0 pt-1">
                 <a class="fs-1 p-3" href="#">
-                    <img src="../assets/1640562992772.jpg" alt="Logo-Cristina">
+                    <img
+                        src="../assets/1640562992772.jpg"
+                        alt="Logo-Cristina"
+                    />
                 </a>
             </div>
             <div class="col-3 social p-2 justify-content-end d-flex">
-                <a href="mailto: giulioincarbone95@gmail.com">
+                <a href="mailto: doulacri@gmail.com">
                     <img
                         class="mx-1 gmail"
                         src="../assets/gmail-google.png"
@@ -30,7 +33,6 @@
                         alt="Instagram"
                     />
                 </a>
-
             </div>
         </header>
         <div
@@ -46,12 +48,12 @@
             </div>
 
             <div
-                class="row g-0 justify-content-md-between align-items-center flex-wrap"
+                class="row g-0 justify-content-md-between align-items-center flex-wrap mt-2"
             >
                 <div
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi p-3">
+                    <div class="servizi p-2 p-sm-3">
                         <a class="fs-3" href="#servizi">Scopri i Servizi</a>
                     </div>
                 </div>
@@ -59,7 +61,7 @@
                 <div
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi p-3">
+                    <div class="servizi p-2 p-sm-3">
                         <a class="fs-3" href="#presentazione"
                             >Scopri chi sono</a
                         >
@@ -69,7 +71,7 @@
                 <div
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi p-3">
+                    <div class="servizi p-2 p-sm-3">
                         <a class="fs-3" href="#feedback">Dicono di me</a>
                     </div>
                 </div>
@@ -77,7 +79,7 @@
                 <div
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
-                    <div class="servizi p-3">
+                    <div class="servizi p-2 p-sm-3">
                         <a class="fs-3" href="#feedback">Contatti</a>
                     </div>
                 </div>
@@ -89,7 +91,6 @@
 <script>
 export default {
     name: "Jumbo",
-
 };
 </script>
 
@@ -100,7 +101,6 @@ section {
     background-position: bottom;
     background-size: cover;
 }
-
 
 .cs-logo img {
     width: 90px;
@@ -132,11 +132,10 @@ section {
 
 .social img {
     width: 45px;
-    height:45px;
-    transition: all ease-in-out .6s;
-    &:hover{
+    height: 45px;
+    transition: all ease-in-out 0.6s;
+    &:hover {
         transform: rotate(360deg);
     }
 }
-
 </style>

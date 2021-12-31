@@ -5,22 +5,30 @@
                 <div class="col-12 col-md-6">
                     <div>
                         <h5>Hai ancora dubbi?</h5>
-                        <h6>Contattami senza impegno per qualsiasi informazione</h6>
+                        <h6>
+                            Contattami senza impegno per qualsiasi informazione
+                        </h6>
                         <div>
-                            La mia mail è: 
-                            <a class="ms-1" href=" mailto: giulioincarbone95@gmail.com">mail@gmail.com</a>
+                            La mia mail è:
+                            <a class="ms-1" href=" mailto: doulacri@gmail.com"
+                                >doulacri@gmail.com</a
+                            >
                         </div>
 
-                        <div >
+                        <div>
                             il mio numero di telefono è:
-                            <a class="ms-1" href=" tel:+393472256151 ">3472256151</a>
+                            <a class="ms-1" href=" tel:+393472256151 "
+                                >3472256151</a
+                            >
                         </div>
                     </div>
                     <div>
-                        <div>Puoi scrivermi anche su Instagram
-                            <a class="ms-1"
+                        <div>
+                            Puoi scrivermi anche su Instagram
+                            <a
+                                class="ms-1"
                                 href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1"
-                            >@custodiamoci
+                                >@custodiamoci
                             </a>
                         </div>
                     </div>
@@ -32,19 +40,19 @@
 
 <script>
 export default {
-name: 'Footer',
-}
+    name: "Footer",
+};
 </script>
 
 <style scoped lang="scss">
-footer{
-    background-color: rgba(248, 164, 210, 0.527)
+footer {
+    background-color: rgba(248, 164, 210, 0.527);
 }
-a{
-    color:black;
+a {
+    color: black;
     text-decoration: none;
-    &:hover{
-        color:black;
+    &:hover {
+        color: black;
         text-decoration: underline;
     }
 }

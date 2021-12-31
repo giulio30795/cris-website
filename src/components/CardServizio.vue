@@ -1,10 +1,10 @@
 <template>
-        <div class="servizio h-100 d-flex flex-column">
-            <div class=" service-card d-flex justify-content-center align-items-center pt-2">
-                <div class="text-center px-3 fs-5"> {{title}} </div>
+        <div class="servizio d-flex flex-column">
+            <div class=" title-container service-card d-flex justify-content-center align-items-center pt-2">
+                <div class="text-center px-3 py-1 fs-5"> {{title}} </div>
             </div>
 
-            <div class="">
+            <div classh="h-100">
                 <img class="p-3 h-100" :src="img" alt="title"/>
             </div>
             <div class="accordion">
@@ -111,9 +111,9 @@ export default {
     border: 2px solid rgba(0, 0, 0, 0.125);
     background-color: white;
 }
-// .service-card{
-//     height: 60px;
-// }
+.title-container{
+    height: 110px;
+}
 
 img{
     width: 100%;
