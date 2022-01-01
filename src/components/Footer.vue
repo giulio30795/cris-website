@@ -105,6 +105,7 @@ img {
     position:fixed;
     bottom: 15px;
     right:15px;
+    transition: .3s;
     &:hover{
         color:white;
         text-decoration: none;
