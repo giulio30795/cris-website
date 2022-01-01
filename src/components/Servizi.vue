@@ -1,6 +1,6 @@
 <template>
     <section id="servizi" class="pb-5">
-        <h2 class="text-center mb-4">Ecco quali sono i servizi offerti</h2>
+        <h2 class="fs-1 text-center mb-4">Ecco quali sono i servizi offerti</h2>
         <div class="container">
             <div id="accordionExample" class="row">
                 <div

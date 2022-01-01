@@ -6,7 +6,7 @@ export default
         text: 'lorem ipsum Un percorso di consapevolezza, informazioni utili e fisiologia strutturato il 5 parti: gravidanza, parto, allattamento, gestione primi giorni, approfondimenti. Scrivimi senza impegno per ricevere il programma completo.',
     },
     {
-        img: require('../assets/newborn-1407625.jpg'),
+        img: require('../assets/baby-22199.jpg'),
         title:'Informazioni Pannolini lavabili (Gratuito)',
         text: 'vuoi scoprire se i pannolini lavabili fanno per voi? Sei curios* di entrare in questo mondo e capirne i vantaggi? Scrivimi',
     },

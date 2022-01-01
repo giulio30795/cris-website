@@ -10,14 +10,14 @@
                 </a>
             </div>
             <div class="col-3 social p-2 justify-content-end d-flex">
-                <a href="mailto: doulacri@gmail.com">
+                <a target="_blank" href="mailto: doulacri@gmail.com">
                     <img
                         class="mx-1 gmail"
                         src="../assets/gmail-google.png"
                         alt="E-Mail"
                     />
                 </a>
-                <a href="tel:+393472256151">
+                <a target="_blank" href="tel:+393472256151">
                     <img
                         class="mx-1"
                         src="../assets/whatsapp-6273368_1280.webp"
@@ -25,6 +25,7 @@
                     />
                 </a>
                 <a
+                    target="_blank"
                     href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1"
                 >
                     <img

@@ -5,7 +5,7 @@
             <div class="row pt-4">
                 <div class="col-12">
                     <div
-                        class="pb-3 ps-md-3 pt-md-3 float-md-end w-50 margin-center pt-lg-0"
+                        class="pb-4 ps-md-3 pt-md-3 float-md-end w-50 margin-center pt-lg-0"
                     >
                         <img src="../assets/IMG-20200504-WA0009.jpg" alt="" />
                     </div>
