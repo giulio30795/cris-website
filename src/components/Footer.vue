@@ -62,7 +62,7 @@
                 </div>
             </div>
         </div>
-        <a class="back-home" href="#"> &uarr; </a>
+        <a class="back-home text-center" href="#"> &uarr; </a>
     </footer>
 </template>
 
