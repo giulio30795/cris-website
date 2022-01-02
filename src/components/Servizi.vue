@@ -35,16 +35,6 @@ export default {
             Servizi: Servizi,
         };
     },
-
-    // methods: {
-    //     setActiveIndex(index) {
-    //         if (this.activeIndex === index) {
-    //             this.activeIndex = null;
-    //         } else {
-    //             this.activeIndex = index;
-    //         }
-    //     },
-    // },
 };
 </script>
 

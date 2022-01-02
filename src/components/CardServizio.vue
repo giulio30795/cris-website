@@ -1,7 +1,7 @@
 <template>
     <div class="servizio d-flex flex-column">
         <div
-            class="title-container service-card d-flex justify-content-center align-items-center pt-2"
+            class="title-container d-flex justify-content-center align-items-center pt-2"
         >
             <div class="text-center px-3 py-1 fs-5">{{ title }}</div>
         </div>
@@ -44,8 +44,6 @@
             </div>
         </div>
     </div>
-    <!-- <div class="flex-grow-2" v-show="!isActive && !closed"></div> -->
-    <!-- @click="$emit('activeAccordion', index)" -->
 </template>
 
 <script>
@@ -59,18 +57,6 @@ export default {
         isActive: Boolean,
         closed: Boolean,
     },
-
-    // data(){
-    //     return {
-    //         flag: false,
-    //     }
-    // },
-
-    // methods:{
-    //     setFlag(){
-    //         this.flag = !this.flag
-    //         },
-    //     },
 };
 </script>
 
@@ -112,22 +98,6 @@ a {
     border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.rotate {
-    transition: 0.4s ease-in-out;
-    transform: rotate(180deg);
-}
-
-.scopri {
-    cursor: pointer;
-}
-
-.flex-grow-2 {
-    flex-grow: 2;
-}
-
-.transtion {
-    transition: 1s;
-}
 .servizio {
     border: 2px solid rgba(0, 0, 0, 0.125);
     background-color: white;
