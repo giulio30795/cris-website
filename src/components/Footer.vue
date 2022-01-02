@@ -42,30 +42,22 @@
                 </div>
 
                 <div class="col-12 col-md-4 mt-3">
-                    <h5>About me</h5>
+                    <h5>Doula Cristina</h5>
                     <div class="d-flex align-items-center">
                         <p class="mb-0">
                             Sostegno in gravidanza e puerperio. Percorsi di
                             accompagnamento alla nascita ed elaborazioni del
                             parto.
                         </p>
-                        
                     </div>
                 </div>
 
                 <div class="align-self-center col-12 col-md-4 mt-3 text-center">
                     <a href="#">
-                            <img
-                                src="../assets/1640562992772.jpg"
-                                alt="Logo-Cristina"
-                            />
-                        </a>
-                    <h5>Download</h5>
-                    <a
-                        target="_blank"
-                        href="Maternità, tra aspettative e realtà - di Cristina Savino.pdf"
-                    >
-                        Scarica sto cazzo di file
+                        <img
+                            src="../assets/1640562992772.jpg"
+                            alt="Logo-Cristina"
+                        />
                     </a>
                 </div>
             </div>
@@ -97,20 +89,19 @@ img {
     width: 90px;
     border-radius: 50%;
 }
-.back-home{
+.back-home {
     font-size: 2.5rem;
     color: white;
-    width:50px;
+    width: 50px;
     border-radius: 50px;
-    position:fixed;
+    position: fixed;
     bottom: 15px;
-    right:15px;
-    transition: .3s;
-    &:hover{
-        color:white;
+    right: 15px;
+    transition: 0.3s;
+    &:hover {
+        color: white;
         text-decoration: none;
-        transform: scale(1.3)
+        transform: scale(1.3);
     }
-
 }
 </style>

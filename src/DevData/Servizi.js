@@ -1,10 +1,10 @@
 export default
 [
-    {
-        img: require('../assets/newborn-1407625.jpg'),
-        title:'Informazioni Babywearing',
-        text: 'lorem ipsum Un percorso di consapevolezza, informazioni utili e fisiologia strutturato il 5 parti: gravidanza, parto, allattamento, gestione primi giorni, approfondimenti. Scrivimi senza impegno per ricevere il programma completo.',
-    },
+    // {
+    //     img: require('../assets/newborn-1407625.jpg'),
+    //     title:'Informazioni Babywearing',
+    //     text: 'lorem ipsum Un percorso di consapevolezza, informazioni utili e fisiologia strutturato il 5 parti: gravidanza, parto, allattamento, gestione primi giorni, approfondimenti. Scrivimi senza impegno per ricevere il programma completo.',
+    // },
     {
         img: require('../assets/baby-22199.jpg'),
         title:'Informazioni Pannolini lavabili (Gratuito)',
@@ -29,6 +29,11 @@ export default
         img: require('../assets/people-3120717.jpg'),
         title:'Elaborazione del parto',
         text: 'Le sensazioni che ci lascia un parto sono molteplici; non sempre sono positive, anche se tutto è andato per il verso giusto. Non sempre riusciamo ad esprimerle o a trovare qualcuno che le accolga. Questo è uno spazio per far riemergere questi vissuti è provare a far pace con essi.',
+    },
+    {
+        img: require('../assets/tree-736875.jpg'),
+        title:'Percorso di visualizzazioni in preparazione al parto',
+        text: 'una serie di visualizzazioni che toccheranno le tematiche della gravidanza, del travaglio e dell\'allattamento. Stimoleranno una respirazione corretta e un punto di riferimento in cui rifugiarsi durante il travaglio per gestire le onde e durante la gravidanza per allontanare eventuali ansie legate al parto',
     },
     {
         img: require('../assets/coffee-2390136.jpg'),

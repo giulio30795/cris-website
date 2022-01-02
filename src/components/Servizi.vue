@@ -13,9 +13,6 @@
                         :title="element.title"
                         :text="element.text"
                         :index="index"
-                        :isActive="activeIndex === index"
-                        @activeAccordion="setActiveIndex"
-                        :closed="activeIndex === null"
                     />
                 </div>
             </div>
@@ -36,7 +33,6 @@ export default {
     data() {
         return {
             Servizi: Servizi,
-            activeIndex: null,
         };
     },
 
