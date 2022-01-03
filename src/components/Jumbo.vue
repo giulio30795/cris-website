@@ -26,7 +26,7 @@
                 </a>
                 <a
                     target="_blank"
-                    href="https://www.instagram.com/custodiamoci/?show_story_unavailable=1"
+                    href="https://www.instagram.com/custodiamoci/"
                 >
                     <img
                         class="mx-1"

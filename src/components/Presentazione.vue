@@ -47,30 +47,30 @@
                         <li>
                             Potresti aver bisogno di concentrarti solo sulla tua
                             nuova famiglia, la doula si occuperà di tutto il
-                            resto
+                            resto;
                         </li>
                         <li>
-                            può ascoltarti e darti informazioni basate sulle
+                            Può ascoltarti e darti informazioni basate sulle
                             evidenze scientifiche, togliendoti confusione e
-                            ansie
+                            ansie;
                         </li>
                         <li>
-                            può riconoscere eventuali problematiche e inviarti
-                            da professionisti competenti
+                            Può riconoscere eventuali problematiche e inviarti
+                            da professionisti competenti;
                         </li>
                         <li>
-                            riconosce e aiuta a far emergere il tuo ruolo di
-                            madre competente e consapevole
+                            Riconosce e aiuta a far emergere il tuo ruolo di
+                            madre competente e consapevole;
                         </li>
                         <li>
-                            supporta senza giudizio insicurezze, timori, dubbi,
+                            Supporta senza giudizio insicurezze, timori, dubbi,
                             stanchezze e ti esorta ad esprimerli senza paura del
-                            giudizio degli altri
+                            giudizio degli altri;
                         </li>
-                        <li>può supportarti durante il travaglio</li>
+                        <li>Può supportarti durante il travaglio;</li>
                         <li>
-                            può aiutarti ad elaborare dei vissuti pesanti legati
-                            ad un parto precedente
+                            Può aiutarti ad elaborare dei vissuti pesanti legati
+                            ad un parto precedente;
                         </li>
                     </ul>
                     <h3 class="mt-5">Quale Formazione ha la Doula?</h3>
