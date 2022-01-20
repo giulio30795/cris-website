@@ -1,6 +1,6 @@
 <template>
     <section id="download">
-        <h2 class="fs-1 mb-2 text-center">Un Regalo per te</h2>
+        <h2 class="fs-1 mb-2 text-center">Download</h2>
         <div class="container py-4">
             <div class="row">
                 <div class="col-12">

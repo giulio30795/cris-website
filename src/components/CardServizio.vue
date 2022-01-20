@@ -36,7 +36,7 @@
                     {{ text }}
                 </p>
                 <div class="d-flex justify-content-between">
-                    <div>Per ultieriori informazioni</div>
+                    <div>Per ulteriori informazioni</div>
                     <a class="text-black me-2 text-center" href="#footer">
                         Contattami &rarr;</a
                     >

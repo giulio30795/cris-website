@@ -38,7 +38,7 @@ export default
     {
         img: require('../assets/coffee-2390136.jpg'),
         title:'Consulenza individuale',
-        text: ' Informazioni, sostengo pratico ed emotivo riguardo tematiche a tua scelta che riguardano la gravidanza, il parto e i primi mesi del neonato. ',
+        text: ' Informazioni, sostengo pratico ed emotivo riguardo tematiche a tua scelta che riguardano la gravidanza, il parto e i primi mesi del neonato. Tra gli argomenti che potremmo affrontare insieme trovi: allattamento, allattamento e rientro al lavoro, gestione primi giorni del neonato, sonno del neonato, rebozo, massaggio neonatale, "coliche", sensazioni, emozioni e difficoltà del post parto, aspettative della gravidanza, parto, preparazione valigia del parto, comunicazione e stimolazione prenatale, piano del parto, endogestazione ed esogestazione, visualizzazioni in preparazione al parto, blessingway, alimentazione complementare. ',
     },
     {
         img: require('../assets/flower-3083448.jpg'),

@@ -29,6 +29,8 @@
                         vita, per partorire e crescere un neonato. Per tutti
                         questi motivi ho intrapreso il percorso per diventare
                         una doula e oggi, se vorrete, sarò qui per aiutarvi.
+                        <br>
+                        Attiva online e a Vigevano, Pavia, Voghera e paesi limitrofi.
                     </p>
                     <h3 class="mt-5">Chi è la Doula?</h3>
                     <p>

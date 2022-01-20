@@ -41,7 +41,7 @@
         >
             <div class="row">
                 <div class="col-12 text pb-3">
-                    <h2 class="fs-1">Doula Cristina</h2>
+                    <h2 class="corsivo">Doula Cristina</h2>
                     <h3 class="fs-1">
                         Sostegno in gravidanza parto e puerperio
                     </h3>
@@ -76,7 +76,7 @@
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#download"
-                            >Regalo per te</a
+                            >Download</a
                         >
                     </div>
                 </div>
@@ -117,7 +117,11 @@ section {
 .text {
     color: white;
 }
-
+.corsivo {
+    font-family: 'Dr Sugiyama', cursive;
+    font-size: 3.2rem;
+    
+}
 .servizi {
     border: 1px solid white;
     width: 100%;

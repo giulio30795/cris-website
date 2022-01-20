@@ -19,12 +19,10 @@
                         </div>
 
                         <div>
-                            il mio numero di telefono è:
                             <a
                                 target="_blank"
-                                class="ms-1"
                                 href=" tel:+393472256151 "
-                                >3472256151</a
+                                >Puoi contattarmi su WhatsApp cliccando qui</a
                             >
                         </div>
                     </div>
@@ -47,7 +45,8 @@
                         <p class="mb-0">
                             Sostegno in gravidanza e puerperio. Percorsi di
                             accompagnamento alla nascita ed elaborazioni del
-                            parto.
+                            parto. <br> <br>
+                            Attiva online e a Vigevano, Pavia, Voghera e paesi limitrofi
                         </p>
                     </div>
                 </div>
@@ -79,6 +78,7 @@ footer {
 a {
     color: black;
     text-decoration: none;
+    margin-left: 0;
     &:hover {
         color: black;
         text-decoration: underline;
