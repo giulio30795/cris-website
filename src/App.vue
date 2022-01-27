@@ -34,6 +34,5 @@ export default {
 <style lang="scss">
 *{
 font-family: 'Bodoni Moda', serif;
-
 }
 </style>

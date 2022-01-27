@@ -1,15 +1,15 @@
 <template>
     <section class="container-fluid pb-5">
         <header class="row justify-content-between">
-            <div class="col-3 cs-logo ps-0 pt-1">
-                <a class="fs-1 p-3" href="#">
+            <div class="col-3 cs-logo d-flex align-items-center">
+                <a class="fs-1 p-1" href="#">
                     <img
                         src="../assets/1640562992772.jpg"
                         alt="Logo-Cristina"
                     />
                 </a>
             </div>
-            <div class="col-3 social p-2 justify-content-end d-flex">
+            <div class="col-3 social p-1 justify-content-end d-flex align-items-center">
                 <a target="_blank" href="mailto: doulacri@gmail.com">
                     <img
                         class="mx-1 gmail"
