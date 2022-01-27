@@ -1,32 +1,57 @@
 <template>
     <section id="download">
-        <h2 class="fs-1 mb-2 text-center">Download</h2>
+        <h2 class="fs-1 mb-2 text-center">Letture</h2>
         <div class="container py-4">
             <div class="row">
                 <div class="col-12">
-                    <div class="float-end margin-center w-50 p-1 p-sm-3">
-                        <img src="../assets/1641058440687.jpg" alt="" />
+                    <div class="d-none d-md-block float-end margin-center w-50 p-1 p-sm-3">
+                        <img src="../assets/valigia-per-il-parto.jpg" alt="" />
                     </div>
-                    <p class="mb-0 pt-1 pt-sm-3">
-                        Le aspettative presenti in ciascuna di noi rispetto alla
-                        maternità non sempre rispecchiano la realtà di fronte
-                        alla quale poi ci ritroviamo. Ho pensato potesse farti
-                        piacere un pdf con una riflessione su questo argomento.
-                        A te, che hai visitato il mio sito entro il 7 febbraio
-                        2022, ho riservato la possibilità di averlo
-                        gratuitamente. Lasciami un feedback via mail e
-                        raccontami se la realtà ha rispecchiato le tue
-                        aspettative, avrai diritto ad uno sconto sui servizi
-                        proposti!
-                    </p>
-                    <p class="fs-3 py-5">
-                        <a
-                            target="_blank"
-                            href="Maternità, tra aspettative e realtà - di Cristina Savino.pdf"
-                        >
-                            Clicca Qui per il Download Gratuito del PDF
-                        </a>
-                    </p>
+                    <div>
+                        <h3 class="text-center">
+                            La Valigia Del Parto
+                        </h3>
+                        <p class="mb-0 pt-1 pt-sm-3">
+                            I nove mesi trascorsi in gravidanza sono un periodo di attesa, di limbo, in cui vediamo il nostro corpo mutare e plasmare una nuova creatura. All'incredulità e alla meraviglia nel vederci in questa veste creatrice associamo una serie di fantasie su come sarà colei/colui che portiamo in grembo, come sarà la nostra nuova vita, come sarà il nostro primo incontro. E per addolcire (e ingannare) l'attesa iniziamo a pensare a tutto ciò che potrebbe servirci per questo incontro e per i mesi a venire. Non c'è un momento adatto per iniziare a pensare o acquistare i più disparati oggetti della prima infanzia, i primi completini o i primi giochi. Ogni coppia è a sé, ogni coppia che si prepara a diventare triade sceglie il momento in cui mettere da parte la scaramanzia e iniziare a pensare concretamente all'arrivo di un figlio.
+                            Non c'è un momento adatto nemmeno per preparare la valigia del parto, il momento adatto è il momento in cui ci si sente pronte, in cui razionalmente ci diciamo che siamo pronte ad affrontare quello che verrà, siamo pronte a pensare che un giorno ci separeremo da lei/lui e dal nostro pancione. Da qui un mio Consiglio personale: ascoltatevi e decidete, senza influenze esterne, quale è il VOSTRO momento adatto per dedicarvi a questa azione così semplice ma che racchiude simbolicamente un grande passaggio della nostra vita. 
+                            Ho pensato potesse esservi utile un elenco dal quale prendere spunto. 
+                            Ogni ospedale prevede una personale lista di oggetti necessari durante la degenza di mamma e bambina/o. È importante capire di cosa necessitiamo realmente in quei giorni, cosa potrebbe aiutarci a ricreare un ambiente confortevole e simile a casa, di cosa necessita la/il vostra/o bimba/o appena venuta/o al mondo e cosa invece potrebbe venirci fornito dall'ospedale. 
+                            All'interno del pdf trovate anche un link in cui potrete trovare una lista della maggior parte degli ospedali e di ciò che richiedono.
+                         </p>
+                        <p class="fs-3 py-3">
+                            <a
+                                target="_blank"                                
+                                href="valigia del parto.pdf"
+                            >
+                                Clicca Qui per il Download Gratuito del PDF
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <Divider />
+
+                <div class="col-12 mt-4">
+                    <div class="d-none d-md-block float-end margin-center w-50 p-1 p-sm-3">
+                        <img src="../assets/IMG_20220123_225756.jpg" alt="" />
+                    </div>
+                    <div>
+                        <h3 class="text-center">
+                            Gravidanza, tra aspettative e realtà
+                        </h3>
+                        <p class="mb-0 pt-1 pt-sm-3">
+                            Le aspettative presenti in ciascuna di noi rispetto alla maternità non sempre rispecchiano la realtà di fronte alla quale poi ci ritroviamo. E questo può portare a smarrimento, paura, talvolta senso di colpa, che non ha ragione di esistere. Investiamo corpo e mente nella creazione di un altro essere umano e viene naturale immaginarlo, percorrere certi momenti nella mente ingannando l'attesa. Non solo, quanto i luoghi comuni, le esperienze altrui e i pregiudizi inficiano sulle nostre aspettative? Quanto veramente godiamo di questi nove mesi, del parto e dei successivi mesi se siamo invase dalle esperienze degli altri? 
+                            Ho pensato potesse farti piacere un pdf con una riflessione su questo argomento.
+                         </p>
+                        <p class="fs-3 py-5">
+                            <a
+                                target="_blank"
+                                href="Maternità, tra aspettative e realtà - di Cristina Savino.pdf"
+                            >
+                                Clicca Qui per il Download Gratuito del PDF
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -34,8 +59,12 @@
 </template>
 
 <script>
+import Divider from './Divider'
 export default {
     name: "Download",
+    components:{
+        Divider,
+    }
 };
 </script>
 

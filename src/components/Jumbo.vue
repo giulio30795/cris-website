@@ -76,7 +76,7 @@
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#download"
-                            >Download</a
+                            >Letture</a
                         >
                     </div>
                 </div>
