@@ -85,6 +85,16 @@
                     class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
+                        <a class="fs-3 w-100 d-block" href="#download"
+                            >Dicono di me</a
+                        >
+                    </div>
+                </div>
+
+                <div
+                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
+                >
+                    <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#footer"
                             >Contatti</a
                         >

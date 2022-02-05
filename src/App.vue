@@ -7,6 +7,8 @@
       <Servizi />
       <Divider />
       <Download />
+      <Divider />
+      <Recensioni />
       <Footer />
     </div>
 </template>
@@ -18,6 +20,7 @@ import Servizi from './components/Servizi.vue'
 import Divider from './components/Divider.vue'
 import Download from './components/Download.vue'
 import Footer from './components/Footer.vue'
+import Recensioni from './components/Recensioni.vue'
 export default {
   name: 'App',
   components: {
@@ -27,6 +30,7 @@ export default {
     Footer,
     Divider,
     Download,
+    Recensioni,
   }
 }
 </script>
