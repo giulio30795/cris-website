@@ -85,18 +85,18 @@
                     class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
-                        <a class="fs-3 w-100 d-block" href="#download"
-                            >Su di me</a
+                        <a class="fs-3 w-100 d-block" href="#footer"
+                            >Contatti</a
                         >
                     </div>
                 </div>
 
                 <div
-                    class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-sm-6 d-sm-none d-lg-flex col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2 feedback"
                 >
                     <div class="servizi p-2 p-sm-3">
-                        <a class="fs-3 w-100 d-block" href="#footer"
-                            >Contatti</a
+                        <a class="fs-3 w-100 d-block" href="#download"
+                            >Feedback</a
                         >
                     </div>
                 </div>
@@ -129,7 +129,7 @@ section {
 }
 .corsivo {
     font-family: 'Dr Sugiyama', cursive;
-    font-size: 3.2rem;
+    font-size: 3rem;
     
 }
 .servizi {
@@ -157,6 +157,16 @@ section {
     transition: all ease-in-out 0.6s;
     &:hover {
         transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .feedback{
+        display: none !important;
+    }
+
+    .corsivo{
+        font-size: 2.5rem
     }
 }
 </style>
