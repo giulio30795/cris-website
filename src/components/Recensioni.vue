@@ -6,12 +6,12 @@
                 <div class="col-12 col-md-10 ">
                     <div id="carouselExampleFade" class="recensioni carousel slide carousel-fade" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                            <div data-bs-interval="10000" class="carousel-item active">
+                            <div data-bs-interval="15000" class="carousel-item active">
                                 <p>
                                     Oggi ho passato un'ora di incontro con Cristina on line. Innanzitutto ha subito creato un clima di fiducia, dove mi sono sentita libera di raccontare il mio vissuto. Mi sono sentita ascoltata e compresa. Mi ha dato poi degli ottimi suggerimenti per aiutarmi a connettermi con me stessa e con le mie risorse. Credo che ogni donna debba essere custodita da una doula. Un grande grazie!
                                 </p>
                             </div>
-                            <div data-bs-interval="10000" class="carousel-item text-center">
+                            <div data-bs-interval="15000" class="carousel-item text-center">
                                 <p>
                                     Ho conosciuto Cristina per caso, in un gruppo di mamme. 
                                     Non sono solita chiedere aiuto, ma la gravidanza e l'arrivo di un bambino cambiano davvero la vita e ti pongono davanti a mille dubbi su qualsiasi cosa e per una neomamma cavarsela da sola non è sempre la scelta migliore. 
@@ -19,7 +19,7 @@
                                     Purtroppo al momento del parto non conoscevo ancora Cristina, altrimenti avrei chiesto il suo appoggio, sia pratico che psicologico, molto prima!
                                 </p>
                             </div>
-                            <div data-bs-interval="10000" class="carousel-item text-center">
+                            <div data-bs-interval="15000" class="carousel-item text-center">
                                 <p>
                                     Ho avuto l’occasione di confrontarmi più volte con Cristina e la prima parola che mi viene di getto è DOLCEZZA.
                                     Ho avuto l’impressione di parlare con una persona che conoscessi da tempo, un’amica insomma!
@@ -27,7 +27,7 @@
                                     Spero di avere l’occasione prossimamente di riparlare con lei.
                                 </p>
                             </div>
-                            <div data-bs-interval="10000" class="carousel-item text-center">
+                            <div data-bs-interval="15000" class="carousel-item text-center">
                                 <p>
                                     L'essere mamma è gratificante ma a volte la stanchezza prevale, oggi dopo una notte infernale ho sentito il bisogno di parlare con doula Cristina per capire se smettere o no di allattare, devo dire che ho trovato oltre ad una professionista super preparata anche una mamma con un cuore super gigante con cui parlare. Grazie mille per questa consulenza!"
                                 </p>
