@@ -52,27 +52,27 @@
                 class="row g-0 justify-content-md-between align-items-center flex-wrap mt-2"
             >
                 <div
-                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#servizi"
-                            >Scopri i Servizi</a
+                            >Servizi</a
                         >
                     </div>
                 </div>
 
                 <div
-                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#presentazione"
-                            >Scopri chi sono</a
+                            >Chi sono</a
                         >
                     </div>
                 </div>
 
                 <div
-                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#download"
@@ -82,17 +82,17 @@
                 </div>
 
                 <div
-                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#download"
-                            >Dicono di me</a
+                            >Su di me</a
                         >
                     </div>
                 </div>
 
                 <div
-                    class="col-12 col-md-6 col-lg-3 px-4 px-md-2 px-lg-3 d-flex justify-content-center align-item-center my-2"
+                    class="col-12 col-sm-6 col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2"
                 >
                     <div class="servizi p-2 p-sm-3">
                         <a class="fs-3 w-100 d-block" href="#footer"
