@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="d-none d-md-block float-end w-50 mt-md-4 p-1 p-sm-3">
-                        <img src="../assets/valigia-per-il-parto.jpg" alt="" />
+                        <img src="../assets/valigia-per-il-parto.jpg" alt="Vigilia del Parto" />
                     </div>
                     <div>
                         <h3 class="text-center">
