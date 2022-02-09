@@ -26,7 +26,7 @@
                 </a>
                 <a
                     target="_blank"
-                    href="https://www.instagram.com/custodiamoci/"
+                    href="https://www.instagram.com/custodiamoci_doula_cristina/"
                 >
                     <img
                         class="mx-1"
@@ -95,7 +95,7 @@
                     class="col-12 col-sm-6 d-sm-none d-lg-flex col-lg-2 px-4 px-md-2 px-lg-0 d-flex justify-content-center align-item-center my-2 feedback"
                 >
                     <div class="servizi p-2 p-sm-3">
-                        <a class="fs-3 w-100 d-block" href="#download"
+                        <a class="fs-3 w-100 d-block" href="#feedback"
                             >Feedback</a
                         >
                     </div>

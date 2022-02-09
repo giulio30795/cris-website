@@ -18,7 +18,7 @@
                             Ogni ospedale prevede una personale lista di oggetti necessari durante la degenza di mamma e bambina/o. È importante capire di cosa necessitiamo realmente in quei giorni, cosa potrebbe aiutarci a ricreare un ambiente confortevole e simile a casa, di cosa necessita la/il vostra/o bimba/o appena venuta/o al mondo e cosa invece potrebbe venirci fornito dall'ospedale. 
                             All'interno del pdf trovate anche un link in cui potrete trovare una lista della maggior parte degli ospedali e di ciò che richiedono.
                          </p>
-                        <p class="fs-3 py-3 text-center">
+                        <p class="fs-3 py-4 text-center">
                             <a  
                                 target="_blank"                                
                                 href="valigia del parto.pdf"
@@ -33,7 +33,7 @@
 
                 <div class="col-12 mt-4">
                     <div class="d-none d-md-block float-end margin-center mt-md-4 w-50 p-1 p-sm-3">
-                        <img src="../assets/IMG_20220123_225756.jpg" alt="" />
+                        <img src="../assets/IMG_20220123_225756.jpg" alt="Immagine con Scarpette" />
                     </div>
                     <div>
                         <h3 class="text-center">
@@ -43,7 +43,7 @@
                             Le aspettative presenti in ciascuna di noi rispetto alla maternità non sempre rispecchiano la realtà di fronte alla quale poi ci ritroviamo. E questo può portare a smarrimento, paura, talvolta senso di colpa, che non ha ragione di esistere. Investiamo corpo e mente nella creazione di un altro essere umano e viene naturale immaginarlo, percorrere certi momenti nella mente ingannando l'attesa. Non solo, quanto i luoghi comuni, le esperienze altrui e i pregiudizi inficiano sulle nostre aspettative? Quanto veramente godiamo di questi nove mesi, del parto e dei successivi mesi se siamo invase dalle esperienze degli altri? 
                             Ho pensato potesse farti piacere un pdf con una riflessione su questo argomento.
                          </p>
-                        <p class="fs-3 py-5 text-center">
+                        <p class="fs-3 py-4 text-center">
                             <a
                                 target="_blank"
                                 href="Maternità, tra aspettative e realtà - di Cristina Savino.pdf"

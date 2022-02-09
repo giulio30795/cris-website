@@ -31,9 +31,8 @@
                             Puoi scrivermi anche su Instagram
                             <a
                                 target="_blank"
-                                class="ms-1"
-                                href="https://www.instagram.com/custodiamoci/"
-                                >@custodiamoci
+                                href="https://www.instagram.com/custodiamoci_doula_cristina/"
+                                >@custodiamoci_doula_cristina
                             </a>
                         </div>
                     </div>
