@@ -1,6 +1,6 @@
 <template>
     <section id="feedback">
-        <h2 class="fs-1 mb-3 pt-1 text-center">Dicono di me</h2>
+        <h2 class="fs-1 mb-3 pt-1 text-center">Feedback</h2>
         <div class="container px-0 px-md-1">
             <div class="row justify-content-center d-flex py-2">
                 <div class="col-12 col-md-10">
