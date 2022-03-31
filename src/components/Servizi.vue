@@ -1,5 +1,7 @@
 <template>
     <section id="servizi" class="pb-5">
+        <Divider />
+
         <h2 class="fs-1 text-center mb-4">Ecco quali sono i servizi offerti</h2>
         <div class="container">
             <div id="accordionExample" class="row">
@@ -23,10 +25,13 @@
 <script>
 import Servizi from "../DevData/Servizi.js";
 import CardServizio from "./CardServizio.vue";
+import Divider from './Divider.vue'
+
 
 export default {
     name: "Servizi",
     components: {
+        Divider,
         CardServizio,
     },
 

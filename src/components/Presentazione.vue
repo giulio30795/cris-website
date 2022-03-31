@@ -1,5 +1,6 @@
 <template>
     <section id="presentazione">
+        <Divider />
         <div class="container pb-5 pt-4">
             <h2 class="fs-1 text-center mb-2">Mi Presento</h2>
             <div class="row pt-4">
@@ -96,8 +97,12 @@
 </template>
 
 <script>
+import Divider from './Divider.vue'
 export default {
     name: "Presentazione",
+    components: {
+        Divider,
+    }
 };
 </script>
 

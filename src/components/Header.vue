@@ -9,6 +9,36 @@
                 </a>
             </div>
 
+            <div class="col-9">
+                <ul class="d-flex list-unstyled justify-content-around">
+                    <li>
+                        <router-link to="/">
+                            Home
+                        </router-link>
+                    </li>
+                    <li>
+                        <router-link to="/servizi">
+                            Servizi
+                        </router-link>
+                    </li>
+                     <li>
+                        <router-link to="/presentazione">
+                            Chi Sono
+                        </router-link>
+                    </li>
+                     <li>
+                        <router-link to="/letture">
+                            Letture
+                        </router-link>
+                    </li>
+                     <li>
+                        <router-link to="/footer">
+                            Faq
+                        </router-link>
+                    </li>
+                </ul>
+            </div>
+
 
             
             <!-- <div class="col-3 social p-1 justify-content-end d-flex align-items-center">
@@ -42,7 +72,7 @@
 
 <script>
 export default {
-    name: "Footer",
+    name: "Header",
 };
 </script>
 

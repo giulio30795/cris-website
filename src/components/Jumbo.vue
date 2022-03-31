@@ -1,7 +1,7 @@
 <template>
     <section class="container-fluid pb-5">
         <div
-            class="container-xl text-center d-flex flex-column justify-content-center justify-content-md-evenly h-100 pb-5"
+            class="container-xl text-center d-flex flex-column justify-content-center h-100 pb-5"
         >
             <div class="row">
                 <div class="col-12 text pb-3">
@@ -9,6 +9,22 @@
                     <h3 class="fs-1">
                         Sostegno in gravidanza parto e puerperio
                     </h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text">
+                    <Recensioni />
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="text col-3">
+                    <div class="servizi p-2 p-sm-3">
+                        <router-link to="/presentazione" class="fs-3 w-100 d-block" href="#servizi"
+                            >Scopri Chi Sono &rarr;</router-link
+                        >
+                    </div>
                 </div>
             </div>
 
@@ -70,8 +86,12 @@
 </template>
 
 <script>
+import Recensioni from './Recensioni.vue'
 export default {
     name: "Jumbo",
+    components: {
+        Recensioni,
+    }
 };
 </script>
 
@@ -98,6 +118,7 @@ section {
 }
 .servizi {
     border: 1px solid white;
+    border-radius:20px;
     width: 100%;
     transition: all ease-in-out 0.3s;
     &:hover {

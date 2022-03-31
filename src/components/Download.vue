@@ -1,5 +1,6 @@
 <template>
     <section id="download">
+        <Divider />
         <h2 class="fs-1 mb-2 text-center">Letture</h2>
         <div class="container py-4">
             <div class="row">
