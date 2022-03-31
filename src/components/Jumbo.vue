@@ -1,41 +1,5 @@
 <template>
     <section class="container-fluid pb-5">
-        <header class="row justify-content-between">
-            <div class="col-3 cs-logo d-flex align-items-center">
-                <a class="fs-1 p-1" href="#">
-                    <img
-                        src="../assets/1640562992772.jpg"
-                        alt="Logo-Cristina"
-                    />
-                </a>
-            </div>
-            <div class="col-3 social p-1 justify-content-end d-flex align-items-center">
-                <a target="_blank" href="mailto: doulacri@gmail.com">
-                    <img
-                        class="mx-1 gmail"
-                        src="../assets/gmail-google.png"
-                        alt="E-Mail"
-                    />
-                </a>
-                <a target="_blank" href="tel:+393472256151">
-                    <img
-                        class="mx-1"
-                        src="../assets/whatsapp-6273368_1280.webp"
-                        alt="Telefono"
-                    />
-                </a>
-                <a
-                    target="_blank"
-                    href="https://www.instagram.com/custodiamoci_doula_cristina/"
-                >
-                    <img
-                        class="mx-1"
-                        src="../assets/logo-instragram.png"
-                        alt="Instagram"
-                    />
-                </a>
-            </div>
-        </header>
         <div
             class="container-xl text-center d-flex flex-column justify-content-center justify-content-md-evenly h-100 pb-5"
         >
@@ -48,7 +12,7 @@
                 </div>
             </div>
 
-            <div
+            <!-- <div
                 class="row g-0 justify-content-md-between align-items-center flex-wrap mt-2"
             >
                 <div
@@ -100,7 +64,7 @@
                         >
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 </template>
@@ -114,8 +78,8 @@ export default {
 <style scoped lang="scss">
 section {
     background-image: url("../assets/lidia-505.jpg");
-    height: 100vh;
-    background-position: bottom;
+    height: 85vh;
+    background-position: center;
     background-size: cover;
 }
 
