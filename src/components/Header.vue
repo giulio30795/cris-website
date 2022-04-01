@@ -1,47 +1,41 @@
 <template>
-          <header class="row justify-content-between p-1 container-fluid m-0">
-            <div class="col-3 cs-logo d-flex align-items-center">
-                <a class="fs-1 p-1" href="#">
-                    <img
-                        src="../assets/1640562992772.jpg"
-                        alt="Logo-Cristina"
-                    />
-                </a>
+    <header class="row justify-content-between p-1 container-fluid m-0">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class=" cs-logo fs-1 p-1" href="/">
+                <img src="../assets/1640562992772.jpg" alt="Logo-Cristina" />
+            </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav fs-3 w-100 justify-content-around">
+                        <li class="nav-item">
+                            <router-link to="/presentazione" class="nav-link">Chi Sono</router-link >
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/servizi" class="nav-link">Servizi</router-link >
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/letture" class="nav-link">Letture</router-link >
+                        </li>
+                        <li class="nav-item">
+                            <router-link to="/" class="nav-link">Faq</router-link >
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col-9">
-                <ul class="d-flex list-unstyled justify-content-around">
-                    <li>
-                        <router-link to="/">
-                            Home
-                        </router-link>
-                    </li>
-                    <li>
-                        <router-link to="/servizi">
-                            Servizi
-                        </router-link>
-                    </li>
-                     <li>
-                        <router-link to="/presentazione">
-                            Chi Sono
-                        </router-link>
-                    </li>
-                     <li>
-                        <router-link to="/letture">
-                            Letture
-                        </router-link>
-                    </li>
-                     <li>
-                        <router-link to="/footer">
-                            Faq
-                        </router-link>
-                    </li>
-                </ul>
-            </div>
-
-
-            
-            <!-- <div class="col-3 social p-1 justify-content-end d-flex align-items-center">
+        </nav>
+        <!-- <div class="col-3 social p-1 justify-content-end d-flex align-items-center">
                 <a target="_blank" href="mailto: doulacri@gmail.com">
                     <img
                         class="mx-1 gmail"
@@ -67,7 +61,7 @@
                     />
                 </a>
             </div> -->
-        </header>
+    </header>
 </template>
 
 <script>
@@ -77,9 +71,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-header{
+header {
     height: 15vh;
-     background-color: rgba(248, 164, 210, 0.527);
+    background-color: rgba(248, 164, 210, 0.527);
 }
 
 .cs-logo img {
@@ -91,9 +85,8 @@ header{
     color: white;
 }
 .corsivo {
-    font-family: 'Dr Sugiyama', cursive;
+    font-family: "Dr Sugiyama", cursive;
     font-size: 3rem;
-    
 }
 
 .servizi {
@@ -125,13 +118,12 @@ header{
 }
 
 @media screen and (max-width: 370px) {
-    .feedback{
+    .feedback {
         display: none !important;
     }
 
-    .corsivo{
-        font-size: 2.5rem
+    .corsivo {
+        font-size: 2.5rem;
     }
 }
-
 </style>
