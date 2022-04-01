@@ -1,11 +1,11 @@
 <template>
     <header class="row justify-content-between p-1 container-fluid m-0">
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
             <div class="container-fluid">
-                <a class=" cs-logo fs-1 p-1" href="/">
-                <img src="../assets/1640562992772.jpg" alt="Logo-Cristina" />
-            </a>
+                <router-link to="/" class=" cs-logo" href="/">
+                    <img src="../assets/1640562992772.jpg" alt="Logo-Cristina" />
+                </router-link>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -19,6 +19,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav fs-3 w-100 justify-content-around">
+                        <li class="nav-item">
+                            <router-link to="/" class="nav-link">Homepage</router-link >
+                        </li>
                         <li class="nav-item">
                             <router-link to="/presentazione" class="nav-link">Chi Sono</router-link >
                         </li>
@@ -72,13 +75,14 @@ export default {
 
 <style scoped lang="scss">
 header {
-    height: 15vh;
+    height: 10vh;
     background-color: rgba(248, 164, 210, 0.527);
 }
 
 .cs-logo img {
-    width: 90px;
+    width: 60px;
     border-radius: 50%;
+    
 }
 
 .text {

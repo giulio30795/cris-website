@@ -19,7 +19,7 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="text col-3">
+                <div class="text col-8 col-md-6 col-lg-3">
                     <div class="servizi p-2 p-sm-3">
                         <router-link to="/presentazione" class="fs-3 w-100 d-block" href="#servizi"
                             >Scopri Chi Sono &rarr;</router-link
@@ -98,7 +98,7 @@ export default {
 <style scoped lang="scss">
 section {
     background-image: url("../assets/lidia-505.jpg");
-    height: 85vh;
+    height: 90vh;
     background-position: center;
     background-size: cover;
 }
