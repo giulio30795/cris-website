@@ -1,0 +1,14 @@
+{
+    "vueCompilerOptions": {
+        "module": "commonjs",
+        "target": 2,
+        "baseUrl": ".",
+        "extensions": [".vue"],
+        "paths": {
+            "@/*": ["./src/*"],
+            "@/modules/*": ["./src/store/modules/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist"],
+    "include": ["src/**/*"]
+}

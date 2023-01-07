@@ -97,10 +97,12 @@ export default {
 
 <style scoped lang="scss">
 section {
-    background-image: url("../assets/lidia-505.jpg");
+    background-image: url("../assets/sfondo_nuovo.png");    
     height: 90vh;
+    width: 100%;
     background-position: center;
     background-size: cover;
+    
 }
 
 .cs-logo img {
@@ -108,29 +110,29 @@ section {
     border-radius: 50%;
 }
 
-.text {
-    color: white;
-}
+// .text {
+//     color: black;
+// }
 .corsivo {
     font-family: 'Dr Sugiyama', cursive;
     font-size: 3rem;
     
 }
 .servizi {
-    border: 1px solid white;
+    border: 1px solid ;
     border-radius:20px;
     width: 100%;
     transition: all ease-in-out 0.3s;
     &:hover {
         border: 1px solid transparent;
-        background-color: #f5eaef;
+        background-color: #0088A3;
         border-radius: 50px;
     }
     &:hover a {
-        color: black;
+        color: white;
     }
     a {
-        color: white;
+        color: black;
         text-decoration: none;
         font-size: 2rem;
     }

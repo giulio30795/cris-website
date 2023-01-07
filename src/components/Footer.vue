@@ -53,7 +53,7 @@
                 <div class="align-self-center col-12 col-md-4 mt-3 text-center">
                     <a href="#">
                         <img
-                            src="../assets/1640562992772.jpg"
+                            src="../assets/logoCristinaNuovo.jpeg"
                             alt="Logo-Cristina"
                         />
                     </a>
@@ -72,15 +72,16 @@ export default {
 
 <style scoped lang="scss">
 footer {
-    background-color: rgba(248, 164, 210, 0.527);
+    color:white;
+    background-color: #0088A3
 }
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin-left: 0;
     &:hover {
-        color: black;
         text-decoration: underline;
+        color: white;
     }
 }
 

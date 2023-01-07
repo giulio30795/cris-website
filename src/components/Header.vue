@@ -1,10 +1,9 @@
 <template>
     <header class="row justify-content-between p-1 container-fluid m-0">
-
         <nav class="navbar navbar-expand-lg navbar-light p-0">
             <div class="container-fluid">
-                <router-link to="/" class=" cs-logo" href="/">
-                    <img src="../assets/1640562992772.jpg" alt="Logo-Cristina" />
+                <router-link to="/" class="cs-logo" href="/">
+                    <img src="../assets/logoCristinaNuovo.jpeg" alt="Logo-Cristina" />
                 </router-link>
                 <button
                     class="navbar-toggler"
@@ -20,19 +19,19 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav fs-3 w-100 justify-content-around">
                         <li class="nav-item">
-                            <router-link to="/" class="nav-link">Homepage</router-link >
+                            <router-link to="/" class="nav-link text-end">Homepage</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/presentazione" class="nav-link">Chi Sono</router-link >
+                            <router-link to="/presentazione" class="nav-link text-end">Chi Sono</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/servizi" class="nav-link">Servizi</router-link >
+                            <router-link to="/servizi" class="nav-link text-end">Servizi</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/letture" class="nav-link">Letture</router-link >
+                            <router-link to="/letture" class="nav-link text-end">Letture</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/" class="nav-link">Faq</router-link >
+                            <router-link to="/" class="nav-link text-end">Faq</router-link>
                         </li>
                     </ul>
                 </div>
@@ -74,15 +73,15 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 header {
     height: 10vh;
-    background-color: rgba(248, 164, 210, 0.527);
+    background-color: transparent;
 }
 
 .cs-logo img {
     width: 60px;
     border-radius: 50%;
-    
 }
 
 .text {

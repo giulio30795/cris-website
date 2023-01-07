@@ -44,7 +44,29 @@ export default {
 </script>
 
 <style lang="scss">
+
+// Utiities and Colors
+
+.text-mainGreen {
+    color: #0088A3!important
+}
+
+.bg-mainGreen {
+    background-color: #0088A3!important
+}
+
 *{
 font-family: 'Bodoni Moda', serif;
 }
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+*.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
 </style>

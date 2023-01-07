@@ -13,10 +13,8 @@ export default {
 <style scoped lang="scss">
 section {
     height: 100px;
-    background-color: #f5eaef;
     img {
         height: 80%;
-        fill: #fbcfe7;
     }
 }
 </style>
